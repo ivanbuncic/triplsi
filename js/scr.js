@@ -1,5 +1,5 @@
-var list_item = $("li")
-var menu_button = $(".navigation__checkbox:checked")
+var list_item = $("li");
+var menu_button = $(".navigation__checkbox:checked");
 
 list_item.on("click", function() {
   console.log("li clicked");
