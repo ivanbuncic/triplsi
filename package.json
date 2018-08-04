@@ -1,0 +1,8 @@
+{
+  "name": "Triplsi Website",
+  "version": "1.1.1",
+  "license": "MIT", 
+  "Dependencies": {
+    "jQuery": "~3.3.1",
+  }
+}
