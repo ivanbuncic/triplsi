@@ -1,5 +1,6 @@
 # triplsi
-TRIPLSI Website with pure CSS built during [Jonas's Advanced CSS course](https://www.udemy.com/advanced-css-and-sass).
+
+[TRIPLSI Website] (https://triplsi.com) with pure CSS built during [Jonas's Advanced CSS course](https://www.udemy.com/advanced-css-and-sass).
 
 JavaScript used just to console.log the Hello message and a little bit of jQuery to close the menu when menu item is clicked.
 
