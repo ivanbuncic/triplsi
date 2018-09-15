@@ -1,4 +1,4 @@
-# triplsi
+# TRIPLSI - Complete customers care website
 
 [TRIPLSI Website](https://triplsi.com) with pure CSS built during [Jonas's Advanced CSS course](https://www.udemy.com/advanced-css-and-sass).
 
