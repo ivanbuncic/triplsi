@@ -517,6 +517,8 @@ body {
 
 label {
 cursor: pointer;
+display: block;
+height: 100%;
 }
 
 .navigation__checkbox {
