@@ -588,6 +588,7 @@ display: block;
 
 .navigation__link:link, .navigation__link:visited {
   display: inline-block;
+  padding: 1rem 2rem;
   font-size: 3rem;
   font-weight: 300;
   color: #fff;
