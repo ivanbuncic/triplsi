@@ -515,6 +515,10 @@ body {
 .form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
   opacity: 1; }
 
+label {
+cursor: pointer;
+}
+
 .navigation__checkbox {
    display: none; }
 
