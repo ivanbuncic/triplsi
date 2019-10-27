@@ -609,18 +609,10 @@ display: block;
 .navigation__checkbox:checked ~ .navigation__background {
   transform: scale(80); }
 
-/*.navigation__nav:target ~ .navigation__background {
-  transform: scale(80); }*/
-
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
   width: 100%;
   z-index: 1500; }
-
-/*.navigation__nav:target ~ .navigation__nav {
-  opacity: 1;
-  width: 100%;
-  z-index: 1500; }*/
 
 .navigation__icon {
   position: relative;
@@ -696,7 +688,7 @@ display: block;
   .story__img {
     height: 100%;
     transform: translateX(1rem) scale(1.4);
-    backface-visibility: hidden; 
+    backface-visibility: hidden;
     transition: all .5s; }
   .story__text {
     transform: skewX(12deg); }
