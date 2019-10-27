@@ -606,21 +606,21 @@ display: block;
   color: #e60f6c;
   transform: translateX(1rem); }
 
-/*.navigation__checkbox:checked ~ .navigation__background {
-  transform: scale(80); }*/
-
-.navigation__nav:target ~ .navigation__background {
+.navigation__checkbox:checked ~ .navigation__background {
   transform: scale(80); }
 
-/*.navigation__checkbox:checked ~ .navigation__nav {
-  opacity: 1;
-  width: 100%;
-  z-index: 1500; }*/
+/*.navigation__nav:target ~ .navigation__background {
+  transform: scale(80); }*/
 
-.navigation__nav:target ~ .navigation__nav {
+.navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
   width: 100%;
   z-index: 1500; }
+
+/*.navigation__nav:target ~ .navigation__nav {
+  opacity: 1;
+  width: 100%;
+  z-index: 1500; }*/
 
 .navigation__icon {
   position: relative;
