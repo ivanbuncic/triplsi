@@ -564,7 +564,7 @@ display: block;
       top: 3.5rem;
       right: 3.5rem; } }
 
-.navigation__nav {
+.navigation__nav:target {
   height: 100vh;
   position: fixed;
   top: 0;
