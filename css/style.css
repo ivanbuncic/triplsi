@@ -696,7 +696,7 @@ display: block;
   .story__img {
     height: 100%;
     transform: translateX(1rem) scale(1.4);
-    backface-visibility: hidden;
+    backface-visibility: hidden; 
     transition: all .5s; }
   .story__text {
     transform: skewX(12deg); }
