@@ -10,10 +10,6 @@
     <link rel="stylesheet" href="css/icon-font.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-    <script
-			  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-			  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
-			  crossorigin="anonymous"></script>
     <title>TRIPLSI | Complete Customers Care</title>
 </head>
 
@@ -436,12 +432,17 @@
 </section>
 -->
 <script>
-	console.log("Hello World, support me here --> https://paypal.me/IBuncic or https://patreon.com/ivanbuncic/memberships. Thank you from the deepest depth of my heart. Deepest bow. And a kiss.");
- 
-$( "ul.navigation__list > li" ).click(function() {
-	$("input[type=checkbox]").click();
-});
+	console.warn("Hello World, support me here --> https://paypal.me/IBuncic or https://patreon.com/ivanbuncic/memberships. Thank you from the deepest depth of my heart. Deepest bow. And a kiss."); 
+
+document.querySelectorAll('ul.navigation__list > li').forEach(function(listItem) {
+    listItem.addEventListener('click', function() {
+        document.querySelectorAll('input[type=checkbox]').forEach(function(checkbox) {
+            checkbox.click();
+        });
+    });
+});	
 	</script>
 </body>
 
 </html>
+
